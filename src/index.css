@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header{
+  background: center;
+  background-image: url('https://ustlabinfo.ru/upload/resize_cache/iblock/3ad/800_800_1/3ade3f158224224c78dc3bd63928b103.png');
+}
+
+.search-area {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%,50%);
+  background: #f8f7e1;
+  height: 30px;
+  border-radius: 40px;
+  padding: 10px;
+}
+.search-btn {
+float: right;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+background: #f8f7e1;
+display: flex;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+}
+.search-area:hover .input {
+  width: 240px;
+}
+.input{
+  bottom: 5px;
+  align-items: center;
+  position: relative;
+  background: none;
+  border: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+  font-family: Fascinate, cursive ;
+}
+.input-open{
+  bottom: 5px;
+  align-items: center;
+  position: relative;
+  background: none;
+  border: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 240px;
+  font-family: Fascinate, cursive ;
+}
+.input :active, :hover, :focus {
+  outline: 0;
+  outline-offset: 0;
+}
+.btn {
+  background: none;
+  border: none;
+}
